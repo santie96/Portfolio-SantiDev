@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io5";
+import { IoIosArrowForward } from "react-icons/io";
+
 
 const footerLinks = [
     { label: "Home", to: "/" },
@@ -42,12 +44,17 @@ function Footer() {
                         <p className="max-w-xs text-sm leading-6 text-[#CBD5E1]">
                             Hai un progetto o un&apos;idea da sviluppare?
                         </p>
-                        <Link
-                            className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full border border-[#3B82F6] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#3B82F6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#93C5FD] motion-reduce:transition-none"
-                            to="/contatti"
-                        >
-                            Contattami <span className="ml-2" aria-hidden="true">-&gt;</span>
-                        </Link>
+                        <button 
+                        type="button"
+                        className="mt-5 flex min-h-11 items-center justify-center rounded-full border border-[#3B82F6] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#3B82F6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#93C5FD] motion-reduce:transition-none">
+                            <Link
+                            className="m-0"
+                                to="/contatti"
+                            >
+                                Contattami
+                            </Link>
+                            <IoIosArrowForward />
+                        </button>
                     </div>
 
                     <nav className="order-3 lg:col-start-2 lg:row-start-1" aria-label="Link del footer">

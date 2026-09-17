@@ -1,4 +1,4 @@
-import CardPLs from "./components/CardsPLs"
+import CardPLs from "../../../layout/Cards"
 import {
     ReactIcon,
     JSIcon,
@@ -9,7 +9,7 @@ import {
     BootstrapIcon,
     TypescriptIcon,
     NextJSIcon,
-} from "../../../../assets/icons/PLs/export_iconsPLS"
+} from "../../../assets/icons/PLs/export_iconsPLS"
 
 const techStack = [
     {
@@ -49,7 +49,7 @@ function Skills() {
                 <div className="space-y-4 sm:space-y-6">
                     <div className="space-y-2">
                         <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[#60A5FA] sm:text-xs">
-                            - Cosa faccio
+                            - Linguaggi e Framework
                         </p>
                         <h2
                             id="tech-stack-title"

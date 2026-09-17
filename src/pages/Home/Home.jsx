@@ -1,11 +1,13 @@
 import Hero from "./Components/hero/Hero";
-import Skills from "./Components/skilss/Skills"
+import Skills from "./Components/Skills"
+import Tools from "./Components/Tools";
 
 function home() {
   return (
     <section className="bg-linear-to-br from-[#101A2E] to-[#17233A] text-white">
       <Hero />
       <Skills />
+      <Tools />
     </section>
   );
 }
