@@ -71,7 +71,7 @@ function ProjectDetails() {
                 <div className="grid gap-8 lg:grid-cols-[1.5fr_0.7fr]">
                     <div className="space-y-8">
                         <div className="overflow-hidden rounded-[28px] border border-[#24344D] bg-[#17233A]/90 shadow-[0_0_0_1px_rgba(36,52,77,0.3)]">
-                            <div className="flex h-[260px] items-center justify-center bg-[radial-gradient(circle_at_top,_rgba(96,165,250,0.3),_transparent_52%)] p-6 sm:h-[360px]">
+                            <div className="flex h-65 items-center justify-center bg-[radial-gradient(circle_at_top,rgba(96,165,250,0.3),transparent_52%)] p-6 sm:h-90">
                                 <div className="flex h-full w-full items-center justify-center rounded-3xl border border-[#24344D] bg-[#101A2E]/80 text-lg font-medium uppercase tracking-[0.2em] text-[#93C5FD] sm:text-xl">
                                     {title}
                                 </div>

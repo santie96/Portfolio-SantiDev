@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
-function ProjectCard({ id, slug, title, description, tags = [], demo = "#", repo = "#" }) {
+function ProjectCard({ slug, title, description, tags = [], demo = "#", repo = "#" }) {
   const navigate = useNavigate()
 
   const handleCardClick = () => {
@@ -12,7 +12,7 @@ function ProjectCard({ id, slug, title, description, tags = [], demo = "#", repo
       onClick={handleCardClick}
       className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#24344D] bg-[#17233A]/90 shadow-[0_0_0_1px_rgba(36,52,77,0.3)] transition-transform duration-200 hover:-translate-y-1 hover:border-[#60A5FA]/60"
     >
-      <div className="h-40 w-full bg-[radial-gradient(circle_at_top,_rgba(96,165,250,0.25),_transparent_55%)] p-5">
+      <div className="h-40 w-full bg-[radial-gradient(circle_at_top,rgba(96,165,250,0.25),transparent_55%)] p-5">
         <div className="flex h-full items-center justify-center rounded-2xl border border-[#24344D] bg-[#101A2E]/80 text-sm font-medium uppercase tracking-[0.18em] text-[#93C5FD] transition-colors hover:border-[#60A5FA]/60">
           {title}
         </div>
