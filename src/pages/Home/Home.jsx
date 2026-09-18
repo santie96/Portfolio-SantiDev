@@ -1,15 +1,15 @@
 import Hero from "./Components/hero/Hero";
-import Skills from "./Components/Skills"
-import Tools from "./Components/Tools";
-import Progetti from "./Components/Progetti";
+import ProjectHome from "./Components/ProjectHome";
+import SkillsHome from "./Components/SkillsHome"
+import ToolsHome from "./Components/ToolsHome";
 
 function home() {
   return (
     <section className="bg-linear-to-br from-[#101A2E] to-[#17233A] text-white">
       <Hero />
-      <Skills />
-      <Tools />
-      <Progetti />
+      <SkillsHome />
+      <ToolsHome />
+      <ProjectHome />
     </section>
   );
 }

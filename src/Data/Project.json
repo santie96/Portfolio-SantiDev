@@ -2,16 +2,17 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Agency",
-    "description": "Landing page moderna per un'agenzia creativa, con sezione hero, servizi e call-to-action pensati per convertire visitatori in contatti.",
+    "title": "Vesta",
+    "img": "/project/VESTA.webp",
+    "description": "E-commerce di abbigliamento moderno sviluppato con React, con architettura full-stack, gestione di prodotti e categorie, autenticazione, carrello e flussi di acquisto. Progetto attualmente in sviluppo.",
     "slug": "portfolio-agency",
-    "category": "Landing page / Brand identity",
+    "category": "Site",
     "year": "2026",
-    "client": "Studio Creativo",
+    "client": "",
     "role": "UI Designer & Frontend Developer",
     "tags": ["React", "Tailwind", "UI Design"],
     "demo": "#",
-    "repo": "#",
+    "repo": "",
     "challenge": "L'agenzia aveva bisogno di un sito che comunicasse subito professionalità e conversione, senza appesantire l'utente con troppi contenuti.",
     "solution": "Ho costruito una landing page diretta e premium con hero forte, servizi chiari, CTA evidenti e una struttura visiva coerente con il brand.",
     "impact": [
@@ -24,6 +25,7 @@
   {
     "id": 2,
     "title": "EventHub",
+    "img": "/project/EventHub.webp",
     "description": "Piattaforma fullstack per la scoperta e gestione di eventi. Utenti e organizzatori con dashboard dedicata, iscrizioni agli eventi e filtri per categoria e città.",
     "slug": "eventhub",
     "category": "Fullstack Platform",
@@ -44,7 +46,8 @@
   },
   {
     "id": 3,
-    "title": "Dashboard Admin",
+    "title": "LogiChain",
+    "img": "/project/LogiChain.webp",
     "description": "Dashboard per gestione dati con schede metriche, timeline e componenti interattivi pensati per semplificare la lettura delle informazioni.",
     "slug": "dashboard-admin",
     "category": "Admin Dashboard",
@@ -53,7 +56,7 @@
     "role": "Frontend Developer",
     "tags": ["React", "Charts", "UX"],
     "demo": "#",
-    "repo": "#",
+    "repo": "",
     "challenge": "Bisognava rendere leggibili molte metriche e dati senza creare un layout confusionario o sovraccarico visivo.",
     "solution": "Ho riordinato i dati in schede, timeline e aree di confronto, migliorando la lettura e la priorità delle informazioni.",
     "impact": [

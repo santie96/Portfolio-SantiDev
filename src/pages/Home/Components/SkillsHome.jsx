@@ -1,5 +1,5 @@
 import CardPLs from "../../../layout/Cards"
-import {
+import { 
     ReactIcon,
     JSIcon,
     HTMLIcon,
@@ -8,10 +8,10 @@ import {
     TailwindCSSIcon,
     BootstrapIcon,
     TypescriptIcon,
-    NextJSIcon,
+    NextJSIcon
 } from "../../../assets/icons/lang/export_icon_lang"
 
-const techStack = [
+const skillsLang = [
     {
         icon: <img src={HTMLIcon} alt="HTML" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "HTML",
@@ -21,8 +21,8 @@ const techStack = [
         title: "CSS",
     },
     {
-        icon: <img src={TailwindCSSIcon} alt="Tailwind CSS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
-        title: "Tailwind CSS",
+        icon: <img src={TailwindCSSIcon} alt="TailwindCSS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
+        title: "TailwindCSS",
     },
     {
         icon: <img src={BootstrapIcon} alt="Bootstrap" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
@@ -33,13 +33,13 @@ const techStack = [
         title: "SASS",
     },
     {
-        icon: <img src={JSIcon} alt="JavaScript" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
-        title: "JavaScript",
+        icon: <img src={JSIcon} alt="Javascript" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
+        title: "Javascript",
     },
     {
         icon: <img src={ReactIcon} alt="React" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "React",
-    },
+    }
 ]
 
 function Skills() {
@@ -60,11 +60,11 @@ function Skills() {
                     </div>
 
                     <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
-                        {techStack.map(({ icon, title }) => (
+                        {skillsLang.map(({ icon, title }) => (
                             <CardPLs key={title} icon={icon} title={title} />
                         ))}
 
-                        <CardPLs
+                       <CardPLs
                             icon={<img src={TypescriptIcon} alt="TypeScript" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />}
                             title="TypeScript"
                             status="In apprendimento"

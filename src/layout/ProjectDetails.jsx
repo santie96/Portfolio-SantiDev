@@ -19,7 +19,7 @@ function ProjectDetails() {
         )
     }
 
-    const { title, category, year, client, role, tags = [], description, challenge, solution, impact = [], gallery = [], demo, repo } = project
+    const { title, img, category, year, client, role, tags = [], description, challenge, solution, impact = [], gallery = [], demo, repo } = project
 
     return (
         <section className="w-full bg-[#0F172A] text-white">
@@ -72,9 +72,7 @@ function ProjectDetails() {
                     <div className="space-y-8">
                         <div className="overflow-hidden rounded-[28px] border border-[#24344D] bg-[#17233A]/90 shadow-[0_0_0_1px_rgba(36,52,77,0.3)]">
                             <div className="flex h-65 items-center justify-center bg-[radial-gradient(circle_at_top,rgba(96,165,250,0.3),transparent_52%)] p-6 sm:h-90">
-                                <div className="flex h-full w-full items-center justify-center rounded-3xl border border-[#24344D] bg-[#101A2E]/80 text-lg font-medium uppercase tracking-[0.2em] text-[#93C5FD] sm:text-xl">
-                                    {title}
-                                </div>
+                                <img src={img} alt={title} className="h-full w-full rounded-2xl object-cover" />
                             </div>
                         </div>
 
@@ -125,14 +123,16 @@ function ProjectDetails() {
                                 >
                                     Live demo
                                 </a>
-                                <a
-                                    href={repo}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="inline-flex items-center justify-center rounded-full border border-[#3B82F6]/60 px-4 py-2.5 text-sm font-medium text-[#BFDBFE] transition-colors hover:bg-[#24344D]"
-                                >
-                                    GitHub
-                                </a>
+                                {repo && (
+                                    <a
+                                        href={repo}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center justify-center rounded-full border border-[#3B82F6]/60 px-4 py-2.5 text-sm font-medium text-[#BFDBFE] transition-colors hover:bg-[#24344D]"
+                                    >
+                                        GitHub
+                                    </a>
+                                )}
                             </div>
                         </div>
 

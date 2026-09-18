@@ -23,6 +23,19 @@ function Project() {
                             </div>
 
                             <h2 className="mb-3 text-2xl font-semibold text-white">{project.title}</h2>
+
+
+                            <div className="w-full bg-[radial-gradient(circle_at_top,rgba(96,165,250,0.25),transparent_55%)] py-5">
+                                <img 
+                                src={project.img} 
+                                alt={project.title}
+                                className="rounded-xl"
+                                />
+                            </div>
+
+
+
+                            
                             <p className="mb-5 text-sm leading-6 text-slate-300">{project.description}</p>
 
                             <div className="mb-5 flex flex-wrap gap-2">

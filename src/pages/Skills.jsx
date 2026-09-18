@@ -1,5 +1,5 @@
-function skills() {
+function Skills() {
     <div>Ciao</div>
 }
 
-export default skills
+export default Skills

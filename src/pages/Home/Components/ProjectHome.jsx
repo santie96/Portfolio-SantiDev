@@ -3,7 +3,7 @@ import Projects from "../../../Data/Project.json"
 
 
 
-function Progetti() {
+function ProjectHome() {
 
     return (
         <section className="w-full">
@@ -31,6 +31,7 @@ function Progetti() {
                         <ProjectCard
                             key={i.id}
                             slug={i.slug}
+                            img={i.img}
                             title={i.title}
                             description={i.description}
                             tags={i.tags}
@@ -44,4 +45,4 @@ function Progetti() {
     )
 }
 
-export default Progetti
+export default ProjectHome
