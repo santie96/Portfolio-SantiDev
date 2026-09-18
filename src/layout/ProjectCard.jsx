@@ -4,7 +4,7 @@ function ProjectCard({ id, slug, title, description, tags = [], demo = "#", repo
   const navigate = useNavigate()
 
   const handleCardClick = () => {
-    navigate(`/progetto/${slug}`, { state: { projectId: id } })
+    navigate(`/progetto/${slug}`)
   }
 
   return (
