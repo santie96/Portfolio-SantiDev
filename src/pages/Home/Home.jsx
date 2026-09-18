@@ -1,6 +1,7 @@
 import Hero from "./Components/hero/Hero";
 import Skills from "./Components/Skills"
 import Tools from "./Components/Tools";
+import Progetti from "./Components/Progetti";
 
 function home() {
   return (
@@ -8,6 +9,7 @@ function home() {
       <Hero />
       <Skills />
       <Tools />
+      <Progetti />
     </section>
   );
 }

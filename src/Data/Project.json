@@ -1,0 +1,67 @@
+
+[
+  {
+    "id": 1,
+    "title": "Portfolio Agency",
+    "description": "Landing page moderna per un'agenzia creativa, con sezione hero, servizi e call-to-action pensati per convertire visitatori in contatti.",
+    "slug": "portfolio-agency",
+    "category": "Landing page / Brand identity",
+    "year": "2026",
+    "client": "Studio Creativo",
+    "role": "UI Designer & Frontend Developer",
+    "tags": ["React", "Tailwind", "UI Design"],
+    "demo": "#",
+    "repo": "#",
+    "challenge": "L'agenzia aveva bisogno di un sito che comunicasse subito professionalità e conversione, senza appesantire l'utente con troppi contenuti.",
+    "solution": "Ho costruito una landing page diretta e premium con hero forte, servizi chiari, CTA evidenti e una struttura visiva coerente con il brand.",
+    "impact": [
+      { "label": "Tempo di caricamento", "value": "1.2s" },
+      { "label": "SEO e UX", "value": "Ottimizzato" },
+      { "label": "CTA principali", "value": "3" }
+    ],
+    "gallery": ["Hero", "Servizi", "Case Study"]
+  },
+  {
+    "id": 2,
+    "title": "EventHub",
+    "description": "Piattaforma fullstack per la scoperta e gestione di eventi. Utenti e organizzatori con dashboard dedicata, iscrizioni agli eventi e filtri per categoria e città.",
+    "slug": "eventhub",
+    "category": "Fullstack Platform",
+    "year": "2025",
+    "client": "Project personale",
+    "role": "Fullstack Developer",
+    "tags": ["JavaScript", "React", "Vite", "BootStrap", "SASS", "Node.js", "Express", "PostgreSQL"],
+    "demo": "#",
+    "repo": "https://github.com/santie96/EventHub",
+    "challenge": "Occorreva creare un'app per gestire eventi e iscrizioni con una navigazione semplice per utenti e organizzatori.",
+    "solution": "Ho organizzato una dashboard chiara con filtri, iscrizione agli eventi e una struttura modulare per dare fluidità all'esperienza.",
+    "impact": [
+      { "label": "Funzioni principali", "value": "8" },
+      { "label": "UX", "value": "Ottimizzata" },
+      { "label": "Stack", "value": "Fullstack" }
+    ],
+    "gallery": ["Home", "Eventi", "Dashboard"]
+  },
+  {
+    "id": 3,
+    "title": "Dashboard Admin",
+    "description": "Dashboard per gestione dati con schede metriche, timeline e componenti interattivi pensati per semplificare la lettura delle informazioni.",
+    "slug": "dashboard-admin",
+    "category": "Admin Dashboard",
+    "year": "2024",
+    "client": "Progetto interno",
+    "role": "Frontend Developer",
+    "tags": ["React", "Charts", "UX"],
+    "demo": "#",
+    "repo": "#",
+    "challenge": "Bisognava rendere leggibili molte metriche e dati senza creare un layout confusionario o sovraccarico visivo.",
+    "solution": "Ho riordinato i dati in schede, timeline e aree di confronto, migliorando la lettura e la priorità delle informazioni.",
+    "impact": [
+      { "label": "Metriche", "value": "12" },
+      { "label": "UX", "value": "Migliorata" },
+      { "label": "Layout", "value": "Responsivo" }
+    ],
+    "gallery": ["Overview", "Metriche", "Timeline"]
+  }
+]
+
