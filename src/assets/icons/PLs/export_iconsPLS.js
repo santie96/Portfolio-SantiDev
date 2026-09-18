@@ -1,9 +1,0 @@
-export { default as ReactIcon } from "./react-icon.svg";
-export { default as JSIcon } from "./javascript-icon.svg";
-export { default as HTMLIcon } from "./html-icon.svg";
-export { default as CSSIcon } from "./css-icon.svg";
-export { default as SCSSIcon } from "./scss-icon.svg";
-export { default as TailwindCSSIcon } from "./tailwind-icon.svg";
-export { default as BootstrapIcon } from "./bootstrap-icon.svg";
-export { default as TypescriptIcon } from "./typescript-icon.svg";
-export { default as NextJSIcon } from "./next-icon.svg";

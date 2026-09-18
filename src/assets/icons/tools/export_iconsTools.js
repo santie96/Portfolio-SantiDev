@@ -1,10 +1,11 @@
 export { default as wordpress } from "./wordpress.svg";
-export { default as vsc } from "./visual-studio-code.svg";
+export { default as vsc } from "./vscode.svg";
 export { default as miro } from "./miro.svg";
+export { default as git } from "./git.svg";
 export { default as github } from "./github.svg";
 export { default as filezilla } from "./filezilla.svg";
 export { default as figma } from "./figma.svg";
 export { default as dbeaver } from "./dbeaver.svg";
 export { default as canva } from "./canva.svg";
-export { default as photoshop } from "./adobe-photoshop.svg";
-export { default as illustrator } from "./adobe-illustrator.svg";
+export { default as photoshop } from "./photoshop.svg";
+export { default as illustrator } from "./illustrator.svg";

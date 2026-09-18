@@ -4,6 +4,7 @@ import {
     vsc,
     miro,
     github,
+    git,
     figma,
     filezilla,
     dbeaver,
@@ -14,15 +15,19 @@ import {
 
 const techStack = [
     {
-        icon: <img src={vsc} alt="visual-studio-code" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={vsc} alt="visual-studio-code" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "VSC",
     },
     {
-        icon: <img src={github} alt="git-github" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={git} alt="git" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
+        title: "Git",
+    },
+    {
+        icon: <img src={github} alt="git-github" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "Git & Github",
     },
     {
-        icon: <img src={figma} alt="figma" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={figma} alt="figma" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "Figma",
     },
     {

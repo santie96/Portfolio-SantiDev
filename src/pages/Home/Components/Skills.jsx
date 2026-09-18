@@ -9,19 +9,19 @@ import {
     BootstrapIcon,
     TypescriptIcon,
     NextJSIcon,
-} from "../../../assets/icons/PLs/export_iconsPLS"
+} from "../../../assets/icons/lang/export_icon_lang"
 
 const techStack = [
     {
-        icon: <img src={HTMLIcon} alt="HTML" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={HTMLIcon} alt="HTML" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "HTML",
     },
     {
-        icon: <img src={CSSIcon} alt="CSS" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={CSSIcon} alt="CSS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "CSS",
     },
     {
-        icon: <img src={TailwindCSSIcon} alt="Tailwind CSS" className="h-10 w-10 object-contain sm:h-11 sm:w-11" />,
+        icon: <img src={TailwindCSSIcon} alt="Tailwind CSS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
         title: "Tailwind CSS",
     },
     {
@@ -29,8 +29,8 @@ const techStack = [
         title: "Bootstrap",
     },
     {
-        icon: <img src={SCSSIcon} alt="SCSS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
-        title: "SCSS",
+        icon: <img src={SCSSIcon} alt="SASS" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
+        title: "SASS",
     },
     {
         icon: <img src={JSIcon} alt="JavaScript" className="h-8 w-8 object-contain sm:h-9 sm:w-9" />,
