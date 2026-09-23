@@ -33,7 +33,7 @@
     "client": "Project personale",
     "role": "Fullstack Developer",
     "tags": ["JavaScript", "React", "Vite", "BootStrap", "SASS", "Node.js", "Express", "PostgreSQL"],
-    "demo": "#",
+    "demo": "https://eventhub-f0hb.onrender.com/",
     "repo": "https://github.com/santie96/EventHub",
     "challenge": "Occorreva creare un'app per gestire eventi e iscrizioni con una navigazione semplice per utenti e organizzatori.",
     "solution": "Ho organizzato una dashboard chiara con filtri, iscrizione agli eventi e una struttura modulare per dare fluidità all'esperienza.",
