@@ -10,7 +10,7 @@ function AboutIntro() {
       <h2 className="mt-4 max-w-[14ch] font-title text-4xl font-semibold leading-[1.02] tracking-[-0.03em] text-white sm:text-5xl lg:text-[3.5rem]">
         Il percorso che
         <br />
-        mi ha portata qui
+        mi ha portato qui
       </h2>
 
       <p className="mt-6 max-w-lg text-base leading-7 text-[#cbd5e1] sm:text-lg">
