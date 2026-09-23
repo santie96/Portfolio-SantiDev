@@ -7,7 +7,7 @@ function ProjectHome() {
 
     return (
         <section className="w-full">
-            <div className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-10 lg:py-20">
+            <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
                 <div className="mb-8 flex flex-col gap-3 sm:mb-10 lg:flex-row lg:items-end lg:justify-between">
                     <div className="space-y-2">
                         <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[#60A5FA] sm:text-xs">

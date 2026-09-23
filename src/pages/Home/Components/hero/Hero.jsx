@@ -57,9 +57,10 @@ function hero() {
                         <HeroVisual />
                     </div>
                 </div>
+                <hr className="border-[#24344D]" />
             </section>
 
-            <hr className="border-[#24344D]"/>
+
         </>
     )
 }

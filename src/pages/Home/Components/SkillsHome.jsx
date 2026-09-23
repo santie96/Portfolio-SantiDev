@@ -45,7 +45,7 @@ const skillsLang = [
 function Skills() {
     return (
         <section aria-labelledby="tech-stack-title" className="w-full">
-            <div className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-10 lg:py-20">
+            <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
                 <div className="space-y-4 sm:space-y-6">
                     <div className="space-y-2">
                         <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[#60A5FA] sm:text-xs">
