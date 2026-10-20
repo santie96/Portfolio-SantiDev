@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
             <header className="w-full border-b border-[#24344D] bg-[#101A2E]">
-                <div className="flex h-16 w-full items-center justify-between px-4 sm:h-20 sm:px-6 lg:h-28 lg:px-10">
+                <div className="flex h-16 w-full items-center justify-between px-4 sm:h-20 sm:px-6 lg:h-28 lg:px-20">
 
                     <section className="flex items-center font-logo">
                         {/* Logo - view Desktop {#d24,13} */}

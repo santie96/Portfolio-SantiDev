@@ -14,7 +14,7 @@ function hero() {
     return (
         <>
             <section className="bg-linear-to-br from-[#101A2E] to-[#17233A] text-white">
-                <div className="mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-7xl items-center gap-10 px-4 py-12 sm:px-6 sm:py-16 lg:grid-cols-[minmax(0,1fr)_minmax(24rem,0.9fr)] lg:gap-12 lg:px-10 lg:py-20">
+                <div className="mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-7xl items-center gap-10 lg:gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(24rem,0.9fr)]  px-6 py-6 sm:px-10 sm:py-10 lg:px-20 lg:py-14">
                     <div className="order-1 flex flex-col gap-8">
                         <div className="max-w-2xl space-y-5">
                             <div className="space-y-2">
@@ -57,7 +57,7 @@ function hero() {
                         <HeroVisual />
                     </div>
                 </div>
-                <hr className="border-[#24344D]" />
+                
             </section>
 
 

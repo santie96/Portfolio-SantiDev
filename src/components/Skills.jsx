@@ -1,4 +1,4 @@
-import CardPLs from "../../../layout/Cards"
+import CardPLs from "./../layout/Cards"
 import { 
     ReactIcon,
     JSIcon,
@@ -9,7 +9,7 @@ import {
     BootstrapIcon,
     TypescriptIcon,
     NextJSIcon
-} from "../../../assets/icons/lang/export_icon_lang"
+} from './../assets/icons/lang/export_icon_lang.js'
 
 const skillsLang = [
     {
@@ -45,7 +45,7 @@ const skillsLang = [
 function Skills() {
     return (
         <section aria-labelledby="tech-stack-title" className="w-full">
-            <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
+            <div className="mx-auto w-full max-w-7xl items-center gap-10 lg:gap-12 px-6 py-6 sm:px-10 sm:py-10 lg:px-20 lg:py-14">
                 <div className="space-y-4 sm:space-y-6">
                     <div className="space-y-2">
                         <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-[#60A5FA] sm:text-xs">
@@ -59,7 +59,7 @@ function Skills() {
                         </h2>
                     </div>
 
-                    <ul className="grid grid-cols-4 gap-3 sm:grid-cols-6 sm:gap-4 xl:grid-cols-9">
+                    <ul className="grid grid-cols-3 gap-3 sm:grid-cols-5 sm:gap-4 xl:grid-cols-6">
                         {skillsLang.map(({ icon, title }) => (
                             <CardPLs key={title} icon={icon} title={title} />
                         ))}

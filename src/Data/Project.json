@@ -33,7 +33,7 @@
     "client": "Project personale",
     "role": "Fullstack Developer",
     "tags": ["JavaScript", "React", "Vite", "BootStrap", "SASS", "Node.js", "Express", "PostgreSQL"],
-    "demo": "https://event-hub-demo-mcdx6sbg6-santie96s-projects.vercel.app/",
+    "demo": "https://event-hub-demo-ochre.vercel.app/",
     "repo": "",
     "challenge": "Occorreva creare un'app per gestire eventi e iscrizioni con una navigazione semplice per utenti e organizzatori.",
     "solution": "Ho organizzato una dashboard chiara con filtri, iscrizione agli eventi e una struttura modulare per dare fluidità all'esperienza.",

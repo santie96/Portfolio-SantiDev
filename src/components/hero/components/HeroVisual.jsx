@@ -1,4 +1,4 @@
-import fotoCv from "../../../../../assets/img/foto-per-cv.png"
+import fotoCv from "./../../../assets/img/foto-per-cv.png"
 
 function HeroVisual() {
   return (

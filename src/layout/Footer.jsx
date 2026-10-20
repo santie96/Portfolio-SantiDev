@@ -18,7 +18,7 @@ const footerLinkClass = "rounded-sm text-sm text-[#CBD5E1] transition-colors hov
 function Footer() {
     return (
         <footer className="w-full border-t border-[#24344D] bg-[#101A2E] text-white">
-            <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10 lg:px-10 lg:py-11">
+            <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10 lg:px-20 lg:pt-20">
                 <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-12">
                     <div className="order-1 max-w-sm lg:col-start-1">
                         <NavLink
