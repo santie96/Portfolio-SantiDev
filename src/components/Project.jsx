@@ -8,7 +8,7 @@ function ProjectHome({ children, limit }) {
         : projects
 
     return (
-        <section className="w-full">
+        <section className="section-surface-alt w-full text-white">
             <div className="mx-auto w-full max-w-7xl lg:gap-12 px-6 py-6 sm:px-10 sm:py-10 lg:px-20 lg:py-14">
                 {children}
                 

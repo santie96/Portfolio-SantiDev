@@ -1,5 +1,8 @@
 function contact() {
-    <div>Ciao</div>
+    return (
+        <div className="page-surface min-h-[60vh]">Ciao</div>
+    )
+    
 }
 
 export default contact

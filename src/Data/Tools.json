@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "vscode.svg",
+    "title": "VSC"
+  },
+  {
+    "icon": "git.svg",
+    "title": "Git"
+  },
+  {
+    "icon": "github.svg",
+    "title": "Git & Github"
+  },
+  {
+    "icon": "figma.svg",
+    "title": "Figma"
+  },
+  {
+    "icon": "miro.svg",
+    "title": "Miro"
+  },
+  {
+    "icon": "wordpress.svg",
+    "title": "Wordpress"
+  },
+  {
+    "icon": "filezilla.svg",
+    "title": "FileZilla"
+  },
+  {
+    "icon": "dbeaver.svg",
+    "title": "Dbeaver"
+  },
+  {
+    "icon": "canva.svg",
+    "title": "Canva"
+  },
+  {
+    "icon": "photoshop.svg",
+    "title": "Photoshop"
+  },
+  {
+    "icon": "illustrator.svg",
+    "title": "Illustrator"
+  }
+]

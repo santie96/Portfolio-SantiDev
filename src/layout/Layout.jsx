@@ -5,10 +5,10 @@ import Footer from "./Footer";
 function Layout() {
 
   return (
-    <div className="">
+    <div className="page-surface min-h-screen">
       <Navbar />
 
-      <main className="">
+      <main>
         <Outlet />
       </main>
 

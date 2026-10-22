@@ -10,9 +10,9 @@ function ProjectCard({ slug, title, img, description, tags = [], demo = "#", rep
   return (
     <article
       onClick={handleCardClick}
-      className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#24344D] bg-[#17233A]/90 shadow-[0_0_0_1px_rgba(36,52,77,0.3)] transition-transform duration-200 hover:-translate-y-1 hover:border-[#60A5FA]/60"
+      className="card-surface group flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl transition duration-200 hover:-translate-y-1 hover:border-[#60A5FA]/50 hover:shadow-[0_20px_50px_rgba(2,6,23,0.35)]"
     >
-      <div className="w-full bg-[radial-gradient(circle_at_top,rgba(96,165,250,0.25),transparent_55%)] p-5">
+      <div className="w-full bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.20),rgba(17,29,50,0.2)_55%,transparent_80%)] p-5">
         <img 
         src={img} 
         alt={title} 

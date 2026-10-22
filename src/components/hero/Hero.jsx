@@ -13,8 +13,8 @@ import HeroVisual from "./components/HeroVisual";
 function hero() {
     return (
         <>
-            <section className="bg-linear-to-br from-[#101A2E] to-[#17233A] text-white">
-                <div className="mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-7xl items-center gap-10 lg:gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(24rem,0.9fr)]  px-6 py-6 sm:px-10 sm:py-10 lg:px-20 lg:py-14">
+            <section className="hero-surface relative isolate overflow-hidden">
+                <div className="relative mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-7xl items-center gap-10 px-6 py-6 sm:px-10 sm:py-10 lg:grid-cols-[minmax(0,1fr)_minmax(24rem,0.9fr)] lg:gap-12 lg:px-20 lg:py-14">
                     <div className="order-1 flex flex-col gap-8">
                         <div className="max-w-2xl space-y-5">
                             <div className="space-y-2">
@@ -24,7 +24,7 @@ function hero() {
                             </div>
 
                             <p className="max-w-xl font-text text-base leading-7 text-[#CBD5E1] sm:text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fuga vitae, laborum iste distinctio, quasi magnam possimus fugit veniam, corrupti laboriosam. Consequatur facere aperiam iusto eius. Quae repudiandae cumque, debitis, accusamus, non numquam quam voluptatibus ab consequatur saepe nulla est molestias maiores praesentium corporis laborum?
+                                Dopo un percorso nel digital marketing, ho scelto di trasformare la mia passione per il web in una professione. Sviluppo interfacce responsive con React e JavaScript, con curiosità, attenzione ai dettagli e voglia di crescere attraverso progetti concreti e lavoro di squadra.
                             </p>
                         </div>
 

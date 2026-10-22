@@ -24,8 +24,8 @@ function Navbar() {
 
     return (
         <>
-            <header className="w-full border-b border-[#24344D] bg-[#101A2E]">
-                <div className="flex h-16 w-full items-center justify-between px-4 sm:h-20 sm:px-6 lg:h-28 lg:px-20">
+            <header className="w-full border-b border-white/10 bg-[#0B1220]/90 text-white shadow-[0_8px_30px_rgba(2,6,23,0.18)] backdrop-blur-xl">
+                <div className="flex h-16 w-full items-center justify-between px-4 sm:h-20 sm:px-6 lg:h-22 lg:px-20">
 
                     <section className="flex items-center font-logo">
                         {/* Logo - view Desktop {#d24,13} */}
@@ -93,9 +93,9 @@ function Navbar() {
                             <li>
                                 <NavLink className={navLinkClass} to="/skills">Skills</NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink className={navLinkClass} to="/esperienze">Esperienze</NavLink>
-                            </li>
+                            </li> */}
                             <li>
                                 <NavLink className={navLinkClass} to="/contatti">Contatti</NavLink>
                             </li>
@@ -107,8 +107,8 @@ function Navbar() {
                     <section className="hidden lg:block">
                         <button
                             type="button"
-                            className="flex min-h-11 cursor-pointer items-center gap-2 rounded-full border-2 border-[#3B82F6] px-5 py-2.5 font-text text-white transition-colors duration-200 hover:bg-[#3B82F6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA] xl:px-7">
-                            Scarica CV <AiOutlineDownload className="text-xl" aria-hidden="true" />
+                            className="text-sm flex min-h-10 cursor-pointer items-center gap-2 rounded-full bg-[#3B82F6]/10 border border-[#3B82F6]/20 px-4 font-text text-white transition-colors duration-300 hover:bg-[#3B82F6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]">
+                            Scarica CV <AiOutlineDownload aria-hidden="true" />
                         </button>
                     </section>
 

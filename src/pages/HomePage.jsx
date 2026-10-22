@@ -1,13 +1,12 @@
+import { Link } from "react-router-dom";
 import Hero from "../components/hero/Hero";
 import Project from "../components/Project";
-import Skills from "../components/Skills"
-
 
 function home() {
   return (
-    <section className="bg-linear-to-br from-[#101A2E] to-[#17233A] text-white">
+    <section className="page-surface">
       <Hero />
-      <hr className="border-[#24344D]" />
+      <hr className="border-white/10" />
       <Project limit={3}>
         <div className="mb-8 flex flex-col gap-3 sm:mb-10 lg:flex-row lg:items-end lg:justify-between">
                     <div className="space-y-2">
@@ -19,19 +18,16 @@ function home() {
                         </h2>
                     </div>
 
-                    <a
-                        href="/progetti"
-                        className="inline-flex items-center gap-2 self-start rounded-full border border-[#3B82F6]/60 px-4 py-2 text-sm font-medium text-[#BFDBFE] transition-colors hover:bg-[#24344D]"
+                    <Link
+                        to="/progetti"
+                        className="inline-flex items-center gap-2 self-start rounded-full bg-[#3B82F6]/10 border border-[#3B82F6]/20 px-4 py-2 text-sm font-medium text-[#BFDBFE] duration-300 transition-colors hover:bg-[#24344D]"
                     >
                         Vedi tutti
-                    </a>
+                    </Link>
                 </div>
       </Project>
-      <hr className="border-[#24344D]" />
-      <Skills />
     </section>
   );
 }
 
 export default home
-

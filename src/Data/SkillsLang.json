@@ -1,0 +1,30 @@
+[
+  {
+    "icon": "html5.svg",
+    "title": "HTML"
+  },
+  {
+    "icon": "css.svg",
+    "title": "CSS"
+  },
+  {
+    "icon": "tailwindcss.svg",
+    "title": "TailwindCSS"
+  },
+  {
+    "icon": "bootstrap.svg",
+    "title": "Bootstrap"
+  },
+  {
+    "icon": "sass.svg",
+    "title": "SASS"
+  },
+  {
+    "icon": "javascript.svg",
+    "title": "Javascript"
+  },
+  {
+    "icon": "react.svg",
+    "title": "React"
+  }
+]

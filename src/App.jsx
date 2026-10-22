@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom"
 import Layout from "./layout/Layout.jsx"
 import HomePage from "./pages/HomePage.jsx"
 import SkillsPage from "./pages/SkillsPage.jsx"
-import ExperiencesPage from "./pages/ExperiencesPage.jsx"
 import ProjectPage from "./pages/ProjectPage.jsx"
 import AboutPage from "./pages/AboutPage.jsx"
 import ContactPage from "./pages/ContactPage.jsx"
@@ -17,7 +16,6 @@ function App() {
         <Route path="progetti" element={<ProjectPage />} />
         <Route path="progetto/:slug" element={<ProjectDetails />} />
         <Route path="skills" element={<SkillsPage />} />
-        <Route path="esperienze" element={<ExperiencesPage />} />
         <Route path="contatti" element={<ContactPage />} />
       </Route>
     </Routes>

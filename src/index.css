@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@layer components {
+  .page-surface {
+    background-color: #0B1220;
+    color: #fff;
+  }
+
+  .section-surface {
+    background-color: #101A2E;
+  }
+
+  .section-surface-alt {
+    background: linear-gradient(180deg, #14233A 0%, #101A2E 100%);
+  }
+
+  .intro-surface {
+    background-color: #101A2E;
+  }
+
+  .hero-surface {
+    color: #fff;
+    background-color: #101A2E;
+  }
+
+  .card-surface {
+    border: 1px solid rgb(148 163 184 / 12%);
+    background-color: #17233A;
+    box-shadow: 0 12px 30px rgb(2 6 23 / 18%);
+  }
+}

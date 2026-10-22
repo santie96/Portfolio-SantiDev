@@ -9,15 +9,15 @@ const footerLinks = [
     { label: "Chi sono", to: "/chi-sono" },
     { label: "Progetti", to: "/progetti" },
     { label: "Skills", to: "/skills" },
-    { label: "Esperienze", to: "/esperienze" },
-    { label: "Contatti", to: "/contatti" },
+/*     { label: "Esperienze", to: "/esperienze" },
+ */    { label: "Contatti", to: "/contatti" },
 ];
 
 const footerLinkClass = "rounded-sm text-sm text-[#CBD5E1] transition-colors hover:text-[#60A5FA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#60A5FA]";
 
 function Footer() {
     return (
-        <footer className="w-full border-t border-[#24344D] bg-[#101A2E] text-white">
+        <footer className="section-surface w-full border-t border-white/10 text-white">
             <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10 lg:px-20 lg:pt-20">
                 <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-12">
                     <div className="order-1 max-w-sm lg:col-start-1">

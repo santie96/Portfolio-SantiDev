@@ -65,6 +65,28 @@
       { "label": "Layout", "value": "Responsivo" }
     ],
     "gallery": ["Overview", "Metriche", "Timeline"]
+  },
+  {
+    "id": 3,
+    "title": "LogiChain",
+    "img": "/project/LogiChain.webp",
+    "description": "Dashboard per gestione dati con schede metriche, timeline e componenti interattivi pensati per semplificare la lettura delle informazioni.",
+    "slug": "dashboard-admin",
+    "category": "Admin Dashboard",
+    "year": "2024",
+    "client": "Progetto interno",
+    "role": "Frontend Developer",
+    "tags": ["React", "Charts", "UX"],
+    "demo": "#",
+    "repo": "",
+    "challenge": "Bisognava rendere leggibili molte metriche e dati senza creare un layout confusionario o sovraccarico visivo.",
+    "solution": "Ho riordinato i dati in schede, timeline e aree di confronto, migliorando la lettura e la priorità delle informazioni.",
+    "impact": [
+      { "label": "Metriche", "value": "12" },
+      { "label": "UX", "value": "Migliorata" },
+      { "label": "Layout", "value": "Responsivo" }
+    ],
+    "gallery": ["Overview", "Metriche", "Timeline"]
   }
 ]
 

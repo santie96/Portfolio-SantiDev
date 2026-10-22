@@ -34,7 +34,7 @@ function CareerTimeline() {
               <span className="h-2.5 w-2.5 rounded-full bg-[#3dd9ff]" aria-hidden="true" />
             </span>
 
-            <div className="grid gap-1 text-left sm:grid-cols-[170px_minmax(0,1fr)] sm:gap-5">
+            <div className="card-surface grid gap-1 rounded-2xl px-4 py-3 text-left transition-colors group-hover:border-[#60A5FA]/20 group-hover:bg-[#1D2D48] sm:grid-cols-[170px_minmax(0,1fr)] sm:gap-5">
               <div className="text-[0.95rem] font-medium text-[#3dd9ff] sm:text-base">
                 {item.year}
               </div>

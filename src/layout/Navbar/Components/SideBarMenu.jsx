@@ -27,7 +27,7 @@ export function SidebarMenu({ isOpen, onClose }) {
         <>
             <div
                 id="mobile-navigation"
-                className={`fixed inset-0 z-50 h-dvh bg-linear-to-br from-[#101A2E] to-[#17233A] transition-transform duration-300 ease-in-out motion-reduce:transition-none ${isOpen ? "translate-x-0" : "pointer-events-none -translate-x-full"}`}
+                className={`fixed inset-0 z-50 h-dvh bg-[#0B1220] transition-transform duration-300 ease-in-out motion-reduce:transition-none ${isOpen ? "translate-x-0" : "pointer-events-none -translate-x-full"}`}
                 aria-hidden={!isOpen}
             >
                 <div className="flex h-full flex-col gap-6 text-white">
@@ -76,14 +76,14 @@ export function SidebarMenu({ isOpen, onClose }) {
                                 Skills
                             </NavLink>
                         </li>
-                        <li className="group w-full">
+                        {/* <li className="group w-full">
                             <NavLink className={mobileNavLinkClass}
                                 to="/esperienze"
                                 onClick={onClose}
                             >
                                 Esperienze
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li className="group w-full">
                             <NavLink className={mobileNavLinkClass}
                                 to="/contatti"
