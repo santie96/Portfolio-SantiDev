@@ -5,8 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import SideBarMenu from "./SideBarMenu.jsx";
 
 const navLinkClass = ({ isActive }) =>
-    `relative inline-flex min-h-11 items-center transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#60A5FA] ${
-        isActive ? "text-[#60A5FA]" : "text-white hover:text-[#93C5FD]"
+    `relative inline-flex min-h-11 items-center transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#60A5FA] ${isActive ? "text-[#60A5FA]" : "text-white hover:text-[#93C5FD]"
     }`;
 
 
@@ -87,10 +86,10 @@ function Navbar() {
                                 <NavLink className={navLinkClass} to="/chi-sono">Chi sono</NavLink>
                             </li>
                             <li>
-                                <NavLink className={navLinkClass} to="/progetti">Progetti</NavLink>
+                                <NavLink className={navLinkClass} to="/skills">Competenze</NavLink>
                             </li>
                             <li>
-                                <NavLink className={navLinkClass} to="/skills">Competenze</NavLink>
+                                <NavLink className={navLinkClass} to="/progetti">Progetti</NavLink>
                             </li>
                             <li>
                                 <NavLink className={navLinkClass} to="/contatti">Contatti</NavLink>

@@ -28,7 +28,7 @@ function ContactPage() {
                         Cerco un’opportunità <span className="text-[#93C5FD]">Front-End.</span>
                     </h1>
                     <p className="mt-7 max-w-xl font-text text-base leading-7 text-[#CBD5E1] sm:text-lg sm:leading-8">
-                        Sono SantiDev, Junior Front-End Developer. Cerco un impiego in cui sviluppare interfacce con React e JavaScript e crescere all’interno di un team.
+                        Sono Santi Andrea Emma, Junior Front-End Developer. Cerco un impiego in cui sviluppare interfacce con React e JavaScript e crescere all’interno di un team.
                     </p>
                     <p className="mt-8 inline-flex items-center gap-3 text-sm text-[#CBD5E1]">
                         <span className="relative flex h-2.5 w-2.5" aria-hidden="true">
