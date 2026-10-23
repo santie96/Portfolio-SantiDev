@@ -46,17 +46,17 @@ L’interfaccia è sviluppata come applicazione React utilizzando **Vite** per i
 
 | Funzionalità                 | Descrizione                                                  | Stato |
 | ---------------------------- | ------------------------------------------------------------ | :---: |
-| **Personal Portfolio**       | Presentazione del profilo e del percorso professionale       |   🟡  |
-| **Hero Section**             | Sezione introduttiva con identità e ruolo professionale      |   🟡  |
-| **Skills Section**           | Presentazione delle competenze e delle tecnologie utilizzate |   🟡  |
-| **Projects Section**         | Showcase dei progetti personali e professionali              |   🟡  |
-| **Responsive Layout**        | Adattamento dell’interfaccia a desktop, tablet e mobile      |   🟡  |
-| **React Components**         | Suddivisione dell’interfaccia in componenti riutilizzabili   |   🟢  |
-| **Routing**                  | Gestione delle eventuali pagine tramite React Router         |   🟢  |
-| **Icone**                    | Utilizzo di icone attraverso React Icons                     |   🟢  |
-| **Styling con Tailwind CSS** | Gestione delle classi e del layout tramite utility CSS       |   🟢  |
+| **Personal Portfolio**       | Presentazione del profilo e del percorso professionale | 🟢 |
+| **Hero Section**             | Sezione introduttiva con identità e ruolo professionale | 🟢 |
+| **Skills e strumenti**       | Competenze e strumenti, organizzati per categorie | 🟢 |
+| **Progetti**                 | Elenco dei progetti e pagine di dettaglio | 🟢 |
+| **Navigazione responsive**   | Menu adattato alle dimensioni dello schermo | 🟢 |
+| **React Components**         | Suddivisione dell’interfaccia in componenti riutilizzabili | 🟢 |
+| **Routing**                  | Navigazione tra pagine tramite React Router | 🟢 |
+| **Icone**                    | Utilizzo di SVG e React Icons | 🟢 |
+| **Styling con Tailwind CSS** | Gestione delle classi e del layout tramite utility CSS | 🟢 |
 
-> Gli elementi contrassegnati come “in sviluppo” rappresentano aree del portfolio ancora in fase di completamento o perfezionamento.
+> Il portfolio è in evoluzione: contenuti, progetti e interfaccia possono essere aggiornati nel tempo.
 
 ### Legenda
 
@@ -133,30 +133,32 @@ Portfolio-SantiDev/
 │   └── assets pubblici
 │
 ├── src/
-│   ├── components/
-│   │   └── componenti React riutilizzabili
-│   │
-│   ├── assets/
-│   │   └── immagini, icone e risorse grafiche
-│   │
+│   ├── components/       # Sezioni e componenti riutilizzabili
+│   ├── data/             # Dati JSON di progetti, esperienze e tecnologie
+│   ├── layout/           # Layout, navigazione e componenti condivisi
+│   ├── pages/            # Pagine collegate tramite React Router
 │   ├── App.jsx
-│   ├── App.css
 │   ├── index.css
 │   └── main.jsx
 │
-├── UX/
-│   └── materiali e riferimenti UX/UI
+├── public/
+│   └── project/          # Immagini pubbliche dei progetti
+├── src/assets/
+│   ├── icons/            # Icone SVG
+│   └── img/              # Immagini usate dall'applicazione
+├── UX/                   # Materiali e riferimenti UX/UI
 │
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
 ├── package.json
 ├── package-lock.json
+├── skills-lock.json
 ├── vite.config.js
 └── README.md
 ```
 
-> La struttura può evolvere durante lo sviluppo del progetto, in base alla suddivisione definitiva dei componenti e delle sezioni del portfolio.
+I contenuti di progetti, esperienze, competenze e strumenti sono gestiti nei file JSON dentro `src/data/`, separandoli dalla presentazione dei componenti.
 
 ---
 
@@ -177,8 +179,10 @@ cd Portfolio-SantiDev
 ### 3. Installare le dipendenze
 
 ```bash
-npm install
+npm ci
 ```
+
+`npm ci` installa le versioni definite in `package-lock.json`. In alternativa, è possibile usare `npm install`.
 
 ### 4. Avviare il server di sviluppo
 
@@ -203,6 +207,14 @@ http://localhost:5173
 | `npm run build`   | Crea la build ottimizzata per la produzione  |
 | `npm run preview` | Visualizza localmente la build di produzione |
 | `npm run lint`    | Esegue i controlli ESLint sul codice         |
+
+---
+
+## 🤖 File di configurazione delle skill
+
+`skills-lock.json` registra le skill utilizzate dal progetto e i relativi riferimenti e hash. È versionato per condividere questa configurazione.
+
+La directory `.agents/` contiene i file locali delle skill ed è esclusa dal repository tramite `.gitignore`; il lockfile non include il contenuto delle skill.
 
 ---
 
@@ -276,11 +288,9 @@ Tra i possibili sviluppi del progetto:
 
 ## 📊 Stato attuale
 
-Portfolio-SantiDev è attualmente un progetto in fase di sviluppo.
+Portfolio-SantiDev è un portfolio frontend realizzato con React, Vite e Tailwind CSS. Include pagine per la presentazione personale, le competenze, i progetti e i contatti, con contenuti gestiti tramite file JSON.
 
-La struttura frontend è stata impostata con React, Vite e Tailwind CSS, mentre le sezioni e l’interfaccia possono essere progressivamente completate, raffinate e ottimizzate.
-
-Il progetto rappresenta uno spazio di sperimentazione per:
+Il progetto continua a evolvere e rappresenta uno spazio di lavoro per:
 
 * Component-based development;
 * Responsive design;
