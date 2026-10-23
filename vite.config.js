@@ -4,5 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(),],
+  plugins: [react(), tailwindcss()],
+  server: {
+    allowedHosts: true, // Permette a tunnl.gg (e altri host esterni) di connettersi
+  },
 })

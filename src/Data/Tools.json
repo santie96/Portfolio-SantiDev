@@ -1,46 +1,72 @@
 [
   {
-    "icon": "vscode.svg",
-    "title": "VSC"
+    "title": "Codice e versionamento",
+    "items": [
+      {
+        "name": "Visual Studio Code",
+        "icon": "vscode.svg",
+        "detail": "Scrittura del codice"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg",
+        "detail": "Versionamento"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.svg",
+        "detail": "Repository e collaborazione"
+      }
+    ]
   },
   {
-    "icon": "git.svg",
-    "title": "Git"
+    "title": "Design e collaborazione",
+    "items": [
+      {
+        "name": "Figma",
+        "icon": "figma.svg",
+        "detail": "Prototipi e interfacce"
+      },
+      {
+        "name": "Miro",
+        "icon": "miro.svg",
+        "detail": "Ideazione e lavoro in team"
+      },
+      {
+        "name": "Canva",
+        "icon": "canva.svg",
+        "detail": "Contenuti visuali"
+      },
+      {
+        "name": "Photoshop",
+        "icon": "photoshop.svg",
+        "detail": "Elaborazione immagini"
+      },
+      {
+        "name": "Illustrator",
+        "icon": "illustrator.svg",
+        "detail": "Grafica vettoriale"
+      }
+    ]
   },
   {
-    "icon": "github.svg",
-    "title": "Git & Github"
-  },
-  {
-    "icon": "figma.svg",
-    "title": "Figma"
-  },
-  {
-    "icon": "miro.svg",
-    "title": "Miro"
-  },
-  {
-    "icon": "wordpress.svg",
-    "title": "Wordpress"
-  },
-  {
-    "icon": "filezilla.svg",
-    "title": "FileZilla"
-  },
-  {
-    "icon": "dbeaver.svg",
-    "title": "Dbeaver"
-  },
-  {
-    "icon": "canva.svg",
-    "title": "Canva"
-  },
-  {
-    "icon": "photoshop.svg",
-    "title": "Photoshop"
-  },
-  {
-    "icon": "illustrator.svg",
-    "title": "Illustrator"
+    "title": "Web e dati",
+    "items": [
+      {
+        "name": "WordPress",
+        "icon": "wordpress.svg",
+        "detail": "Gestione dei contenuti web"
+      },
+      {
+        "name": "FileZilla",
+        "icon": "filezilla.svg",
+        "detail": "Trasferimento dei file"
+      },
+      {
+        "name": "DBeaver",
+        "icon": "dbeaver.svg",
+        "detail": "Consultazione dei database"
+      }
+    ]
   }
 ]

@@ -1,92 +1,65 @@
-
 [
   {
     "id": 1,
     "title": "Vesta",
     "img": "/project/VESTA.webp",
-    "description": "E-commerce di abbigliamento moderno sviluppato con React, con architettura full-stack, gestione di prodotti e categorie, autenticazione, carrello e flussi di acquisto. Progetto attualmente in sviluppo.",
+    "description": "E-commerce di abbigliamento sviluppato con React. Riunisce catalogo per categorie, autenticazione, carrello e flusso di acquisto collegato alle API REST. Il progetto è ancora in sviluppo.",
     "slug": "portfolio-agency",
-    "category": "Site",
+    "category": "E-commerce",
     "year": "2026",
     "client": "",
     "role": "UI Designer & Frontend Developer",
-    "tags": ["React", "Vite", "javascript", "Tailwind", "API REST", "UX/UI Design", "Figma"],
+    "tags": ["React", "Vite", "JavaScript", "Tailwind CSS", "API REST", "UX/UI Design", "Figma"],
     "demo": "#",
     "repo": "",
     "challenge": "",
     "solution": "",
-    "impact": [
-      { "label": "Tempo di caricamento", "value": "1.2s" },
-      { "label": "SEO e UX", "value": "Ottimizzato" },
-      { "label": "CTA principali", "value": "3" }
-    ],
-    "gallery": ["Hero", "Servizi", "Case Study"]
+    "features": [
+      "Catalogo di prodotti organizzato per categorie.",
+      "Autenticazione e carrello collegati al flusso di acquisto.",
+      "API REST per recuperare i dati e gestire le operazioni del negozio."
+    ]
   },
   {
     "id": 2,
     "title": "EventHub",
     "img": "/project/EventHub.webp",
-    "description": "Piattaforma fullstack per la scoperta e gestione di eventi. Utenti e organizzatori con dashboard dedicata, iscrizioni agli eventi e filtri per categoria e città.",
+    "description": "Piattaforma full stack per scoprire e gestire eventi. Utenti e organizzatori hanno aree dedicate per consultare gli eventi, iscriversi e gestire le attività.",
     "slug": "eventhub",
-    "category": "Fullstack Platform",
+    "category": "Full stack platform",
     "year": "2025",
-    "client": "Project personale",
-    "role": "Fullstack Developer",
-    "tags": ["JavaScript", "React", "Vite", "BootStrap", "SASS", "Node.js", "Express", "PostgreSQL"],
+    "client": "Progetto personale",
+    "role": "Full stack developer",
+    "tags": ["JavaScript", "React", "Vite", "Bootstrap", "SASS", "Node.js", "Express", "PostgreSQL"],
     "demo": "https://event-hub-demo-ochre.vercel.app/",
     "repo": "",
-    "challenge": "Occorreva creare un'app per gestire eventi e iscrizioni con una navigazione semplice per utenti e organizzatori.",
-    "solution": "Ho organizzato una dashboard chiara con filtri, iscrizione agli eventi e una struttura modulare per dare fluidità all'esperienza.",
-    "impact": [
-      { "label": "Funzioni principali", "value": "8" },
-      { "label": "UX", "value": "Ottimizzata" },
-      { "label": "Stack", "value": "Fullstack" }
-    ],
-    "gallery": ["Home", "Eventi", "Dashboard"]
+    "challenge": "Serviva un'applicazione che rendesse semplice trovare eventi e gestire iscrizioni, offrendo agli organizzatori gli strumenti per seguire le proprie attività.",
+    "solution": "Ho separato i percorsi per partecipanti e organizzatori, aggiungendo ricerca e filtri per categoria, luogo e data, oltre a una dashboard per la gestione degli eventi.",
+    "features": [
+      "Ricerca degli eventi con filtri per categoria, luogo e data.",
+      "Dettagli e iscrizione agli eventi da un percorso dedicato.",
+      "Dashboard per organizzatori con strumenti per creare e gestire eventi."
+    ]
   },
   {
     "id": 3,
     "title": "LogiChain",
     "img": "/project/LogiChain.webp",
-    "description": "Dashboard per gestione dati con schede metriche, timeline e componenti interattivi pensati per semplificare la lettura delle informazioni.",
+    "description": "Dashboard gestionale che riunisce indicatori, ordini e spedizioni per rendere più rapida la lettura delle attività operative.",
     "slug": "dashboard-admin",
-    "category": "Admin Dashboard",
+    "category": "Admin dashboard",
     "year": "2024",
     "client": "Progetto interno",
-    "role": "Frontend Developer",
+    "role": "Frontend developer",
     "tags": ["React", "Charts", "UX"],
     "demo": "#",
     "repo": "",
-    "challenge": "Bisognava rendere leggibili molte metriche e dati senza creare un layout confusionario o sovraccarico visivo.",
-    "solution": "Ho riordinato i dati in schede, timeline e aree di confronto, migliorando la lettura e la priorità delle informazioni.",
-    "impact": [
-      { "label": "Metriche", "value": "12" },
-      { "label": "UX", "value": "Migliorata" },
-      { "label": "Layout", "value": "Responsivo" }
-    ],
-    "gallery": ["Overview", "Metriche", "Timeline"]
-  },
-  {
-    "id": 3,
-    "title": "LogiChain",
-    "img": "/project/LogiChain.webp",
-    "description": "Dashboard per gestione dati con schede metriche, timeline e componenti interattivi pensati per semplificare la lettura delle informazioni.",
-    "slug": "dashboard-admin",
-    "category": "Admin Dashboard",
-    "year": "2024",
-    "client": "Progetto interno",
-    "role": "Frontend Developer",
-    "tags": ["React", "Charts", "UX"],
-    "demo": "#",
-    "repo": "",
-    "challenge": "Bisognava rendere leggibili molte metriche e dati senza creare un layout confusionario o sovraccarico visivo.",
-    "solution": "Ho riordinato i dati in schede, timeline e aree di confronto, migliorando la lettura e la priorità delle informazioni.",
-    "impact": [
-      { "label": "Metriche", "value": "12" },
-      { "label": "UX", "value": "Migliorata" },
-      { "label": "Layout", "value": "Responsivo" }
-    ],
-    "gallery": ["Overview", "Metriche", "Timeline"]
+    "challenge": "La dashboard doveva presentare molti dati operativi senza sovraccaricare la lettura né nascondere le priorità.",
+    "solution": "Ho organizzato il riepilogo in indicatori e grafici, con collegamenti alle aree operative per approfondire ordini, magazzino e spedizioni.",
+    "features": [
+      "Indicatori aggiornati da dati di magazzino, ordini e spedizioni.",
+      "Grafici per confrontare l'andamento e lo stato degli ordini.",
+      "Collegamenti rapidi dal riepilogo ai moduli operativi."
+    ]
   }
 ]
-

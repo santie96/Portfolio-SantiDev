@@ -4,7 +4,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
 import { IoCodeSlash } from "react-icons/io5";
 import { FaUsers } from "react-icons/fa";
-import CardHeroLayout from "./components/CardsHeroLayout";
+import CardHeroLayout from "./components/StatCard";
 import HeroVisual from "./components/HeroVisual";
 
 

@@ -1,56 +1,39 @@
-const certifications = [
-  {
-    year: "2026",
-    text: "Developer Frontend · C.F.A. SRL",
-    place: "Sviluppo di gestionali e dashboard ERP con React, React Router e Tailwind CSS.",
-  },
-  {
-    year: "2025 - 2026",
-    text: "Developer Web & Front-End",
-    place: "746 ore di formazione suddivise in 3 percorsi: IT Developer – Web Master, Developer Front-End e Developer JavaScript, Node.js & React.js.",
-  },
-  {
-    year: "2023 - 2024",
-    text: "Addetto al Marketing · Emotion S.r.l.",
-    place: "Esperienza in marketing digitale, SEO, ADV, email marketing e gestione dei contenuti.",
-  },
-  {
-    year: "2022",
-    text: "Web Content Specialist",
-    place: "Percorso IFTS di 800 ore sulla comunicazione digitale e gestione dei contenuti web.",
-  },
-];
+import experiencesData from "./../../../data/Experiences.json";
 
 function CareerTimeline() {
-  return (
-    <div className="relative mx-auto w-full max-w-2xl pl-6 pt-2">
-      <ul className="space-y-5">
-        {certifications.map((item) => (
-          <li
-            key={`${item.year}-${item.text}`}
-            className="group relative pl-8 before:absolute before:left-1.75 before:top-6 before:h-[calc(100%+1.25rem)] before:w-px before:bg-[#0ea5e9]/40 before:content-[''] last:before:hidden"
-          >
-            <span className="absolute left-0 top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 border-[#0ea5e9] bg-[#101A2E] shadow-[0_0_14px_rgba(14,165,233,0.4)]">
-              <span className="h-2.5 w-2.5 rounded-full bg-[#3dd9ff]" aria-hidden="true" />
-            </span>
+    return (
+        <section className="section-surface-alt w-full border-t border-white/10 text-white" aria-labelledby="experience-title">
+            <div className="mx-auto w-full max-w-7xl px-6 py-8 sm:px-10 sm:py-10 lg:px-20 lg:py-12">
+                <header className="mb-5 max-w-3xl">
+                    <p className="font-mono text-xs text-[#60A5FA]">Il percorso</p>
+                    <h2 id="experience-title" className="mt-2 font-title text-2xl font-semibold text-white sm:text-3xl">
+                        Esperienza e formazione
+                    </h2>
+                    <p className="mt-3 text-sm leading-6 text-[#CBD5E1] sm:text-base">
+                        Dalle competenze nella comunicazione al lavoro quotidiano sul Front-End.
+                    </p>
+                </header>
 
-            <div className="card-surface grid gap-1 rounded-2xl px-4 py-3 text-left transition-colors group-hover:border-[#60A5FA]/20 group-hover:bg-[#1D2D48] sm:grid-cols-[170px_minmax(0,1fr)] sm:gap-5">
-              <div className="text-[0.95rem] font-medium text-[#3dd9ff] sm:text-base">
-                {item.year}
-              </div>
-
-              <div className="min-w-0">
-                <p className="text-[1rem] font-medium leading-6 text-white sm:text-[1.05rem]">
-                  {item.text}
-                </p>
-                <p className="mt-1 text-[0.8rem] text-[#94a3b8] sm:text-[0.95rem]">{item.place}</p>
-              </div>
+                <ul className="overflow-hidden border border-[#40516F] bg-[#17233A] divide-y divide-[#40516F]">
+                    {experiencesData.map((item) => (
+                        <li
+                            key={`${item.period}-${item.role}`}
+                            className="grid gap-2 px-4 py-4 sm:grid-cols-[110px_minmax(0,1fr)] sm:gap-x-5 sm:px-5 md:grid-cols-[140px_minmax(0,0.9fr)_minmax(0,1.5fr)] md:items-center"
+                        >
+                            <span className="inline-flex w-fit border border-[#40516F] bg-[#101A2E] px-2 py-1 font-mono text-[10px] leading-4 text-[#BFDBFE]">
+                                {item.period}
+                            </span>
+                            <div className="min-w-0">
+                                <h3 className="font-title text-base font-semibold leading-tight text-white">{item.role}</h3>
+                                <p className="mt-1 text-xs font-medium text-[#60A5FA]">{item.organization}</p>
+                            </div>
+                            <p className="text-sm leading-5 text-[#CBD5E1] sm:col-start-2 md:col-start-auto">{item.description}</p>
+                        </li>
+                    ))}
+                </ul>
             </div>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+        </section>
+    );
 }
 
 export default CareerTimeline;

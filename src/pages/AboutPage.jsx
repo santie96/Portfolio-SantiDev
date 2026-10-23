@@ -1,11 +1,7 @@
-import CourseOfStudy from "./../components/courseOfStudy/CourseOfStudy";
+import CourseOfStudy from "../components/courseOfStudy/CourseOfStudy";
 
-function about() {
-    return (
-        <>
-        <CourseOfStudy />
-        </>
-    )
+function AboutPage() {
+    return <CourseOfStudy />;
 }
 
-export default about
+export default AboutPage;

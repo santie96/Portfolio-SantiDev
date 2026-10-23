@@ -1,30 +1,60 @@
 [
   {
-    "icon": "html5.svg",
-    "title": "HTML"
+    "title": "Stack principale",
+    "items": [
+      {
+        "name": "React",
+        "icon": "react.svg",
+        "detail": "Interfacce modulari e componenti riutilizzabili"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg",
+        "detail": "Logica, eventi e interazioni"
+      },
+      {
+        "name": "HTML / CSS",
+        "icons": [
+          "html5.svg",
+          "css.svg"
+        ],
+        "detail": "Markup semantico e layout responsive"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.svg",
+        "detail": "Stili coerenti e varianti responsive"
+      }
+    ]
   },
   {
-    "icon": "css.svg",
-    "title": "CSS"
+    "title": "Tecnologie complementari",
+    "items": [
+      {
+        "name": "SASS",
+        "icon": "sass.svg",
+        "detail": "Organizzazione degli stili"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.svg",
+        "detail": "Componenti e layout"
+      }
+    ]
   },
   {
-    "icon": "tailwindcss.svg",
-    "title": "TailwindCSS"
-  },
-  {
-    "icon": "bootstrap.svg",
-    "title": "Bootstrap"
-  },
-  {
-    "icon": "sass.svg",
-    "title": "SASS"
-  },
-  {
-    "icon": "javascript.svg",
-    "title": "Javascript"
-  },
-  {
-    "icon": "react.svg",
-    "title": "React"
+    "title": "In apprendimento",
+    "items": [
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg",
+        "detail": "Tipi più solidi per il codice"
+      },
+      {
+        "name": "Next.js",
+        "icon": "nextjs.svg",
+        "detail": "Nuove soluzioni per app React"
+      }
+    ]
   }
 ]

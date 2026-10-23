@@ -5,7 +5,7 @@ import SkillsPage from "./pages/SkillsPage.jsx"
 import ProjectPage from "./pages/ProjectPage.jsx"
 import AboutPage from "./pages/AboutPage.jsx"
 import ContactPage from "./pages/ContactPage.jsx"
-import ProjectDetails from "./layout/ProjectDetails.jsx"
+import ProjectDetails from "./pages/ProjectDetails.jsx"
 
 function App() {
   return (

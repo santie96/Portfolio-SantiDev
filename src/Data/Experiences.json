@@ -1,0 +1,26 @@
+[
+    {
+        "period": "2026",
+        "role": "Developer Frontend",
+        "organization": "C.F.A. S.r.l.",
+        "description": "Sviluppo di gestionali e dashboard ERP con React, React Router e Tailwind CSS."
+    },
+    {
+        "period": "2025 – 2026",
+        "role": "Formazione Web & Front-End",
+        "organization": "746 ore, 3 percorsi",
+        "description": "IT Developer – Web Master, Developer Front-End e Developer JavaScript, Node.js & React.js."
+    },
+    {
+        "period": "2023 – 2024",
+        "role": "Addetto al Marketing",
+        "organization": "Emotion S.r.l.",
+        "description": "Marketing digitale, SEO, ADV, email marketing e gestione dei contenuti."
+    },
+    {
+        "period": "2022",
+        "role": "Web Content Specialist",
+        "organization": "Percorso IFTS, 800 ore",
+        "description": "Formazione sulla comunicazione digitale e sulla gestione dei contenuti web."
+    }
+]

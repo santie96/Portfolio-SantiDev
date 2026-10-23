@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Hero from "../components/hero/Hero";
-import Project from "../components/Project";
+import Project from "../components/ProjectList";
 
 function home() {
   return (
