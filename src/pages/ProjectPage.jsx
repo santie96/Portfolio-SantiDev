@@ -6,8 +6,8 @@ function ProjectPage() {
         <section className="page-surface">
             <Intestation
                 eyebrow="Progetti"
-                title="Lavori concreti, esperienze reali"
-                paragraf="Una selezione di progetti personali e di gruppo: cosa fanno, quali tecnologie li sostengono e il mio contributo."
+                title="Progetti web personali e di gruppo"
+                paragraf="Presento i progetti, le tecnologie utilizzate e il contributo che ho dato nei lavori di gruppo."
                 compact
             />
             <ProjectList headingLevel={2} />

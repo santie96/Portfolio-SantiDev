@@ -8,7 +8,7 @@ const footerLinks = [
     { label: "Home", to: "/" },
     { label: "Chi sono", to: "/chi-sono" },
     { label: "Progetti", to: "/progetti" },
-    { label: "Skills", to: "/skills" },
+    { label: "Competenze", to: "/skills" },
     { label: "Contatti", to: "/contatti" },
 ];
 
@@ -34,14 +34,14 @@ function Footer() {
                             </h2>
                         </NavLink>
                         <p className="mt-4 max-w-xs text-sm leading-6 text-[#CBD5E1]">
-                            Junior Frontend Developer. Trasformo idee e interfacce in esperienze web chiare e funzionali.
+                            Junior Front-End Developer. Sviluppo interfacce web chiare e funzionali, con attenzione ai contenuti e all’esperienza d’uso.
                         </p>
                     </div>
 
                     <div className="order-2 lg:col-start-3">
-                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-[#60A5FA]">Lavoriamo insieme</h3>
+                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-[#60A5FA]">Opportunità Front-End</h3>
                         <p className="max-w-xs text-sm leading-6 text-[#CBD5E1]">
-                            Hai un progetto o un&apos;idea da sviluppare?
+                            Cerco un impiego Front-End. In Contatti trovi i miei riferimenti professionali.
                         </p>
 
                         <Link
@@ -67,7 +67,7 @@ function Footer() {
                 </div>
 
                 <div className="mt-8 flex flex-col gap-4 border-t border-[#24344D] pt-4 sm:flex-row sm:items-center sm:justify-between">
-                    <p className="text-xs text-[#94A3B8]">© 2026 SantiDev. Crafted with React &amp; Tailwind CSS.</p>
+                    <p className="text-xs text-[#94A3B8]">© 2026 SantiDev. Realizzato con React e Tailwind CSS.</p>
                     <div className="flex gap-2">
                         <a
                             className="rounded-md p-2 text-xl text-[#CBD5E1] transition-colors hover:bg-[#24344D] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]"

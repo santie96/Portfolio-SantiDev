@@ -51,7 +51,7 @@ function ProjectCard({ slug, title, img, description, tags = [], demo, repo, cat
                             rel="noreferrer"
                             className="inline-flex min-h-9 items-center justify-center border border-[#60A5FA] bg-[#3B82F6] px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-[#2563EB] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]"
                         >
-                            Esplora live demo
+                            Esplora la demo
                         </a>
                     )}
                     {hasRepo && (
@@ -61,14 +61,14 @@ function ProjectCard({ slug, title, img, description, tags = [], demo, repo, cat
                             rel="noreferrer"
                             className="inline-flex min-h-9 items-center justify-center border border-[#52627D] bg-[#101A2E] px-3 py-2 text-xs font-medium text-[#E2E8F0] transition-colors hover:border-[#60A5FA] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]"
                         >
-                            Ispeziona codice GitHub
+                            Apri il repository
                         </a>
                     )}
                     <Link
                         to={`/progetto/${slug}`}
                         className="inline-flex min-h-9 items-center px-1 py-2 text-xs font-medium text-[#BFDBFE] underline decoration-[#40516F] underline-offset-4 hover:text-white hover:decoration-[#60A5FA] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]"
                     >
-                        Leggi i dettagli
+                        Apri i dettagli del progetto
                     </Link>
                 </div>
             </div>

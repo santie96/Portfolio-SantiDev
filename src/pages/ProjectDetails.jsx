@@ -16,7 +16,7 @@ function ProjectDetails() {
                     <div className={`${panelClasses} p-4 sm:p-5`}>
                         <h1 className="font-title text-2xl font-semibold text-white sm:text-3xl">Progetto non trovato</h1>
                         <p className="mt-3 max-w-xl text-sm leading-6 text-[#CBD5E1]">
-                            Non trovo un progetto associato a questo indirizzo.
+                            Non è disponibile un progetto per questo indirizzo.
                         </p>
                         <Link to="/progetti" className={`${primaryLinkClasses} mt-5`}>
                             ← Torna ai progetti
@@ -83,7 +83,7 @@ function ProjectDetails() {
 
                         <aside className={`${panelClasses} flex h-full min-w-0 flex-col p-4 sm:p-5 lg:col-span-5`} aria-label={`Riepilogo del progetto ${title}`}>
                             <div>
-                                <h2 className="font-title text-xl font-semibold leading-tight text-white">Il progetto</h2>
+                                <h2 className="font-title text-xl font-semibold leading-tight text-white">Panoramica del progetto</h2>
                                 {description && <p className="mt-2 text-sm leading-5 text-[#CBD5E1]">{description}</p>}
                             </div>
 
@@ -111,7 +111,7 @@ function ProjectDetails() {
                                 <div className="mt-auto flex flex-wrap gap-2 pt-5">
                                     {hasDemo && (
                                         <a href={demo} target="_blank" rel="noreferrer" className={primaryLinkClasses}>
-                                            Esplora live demo
+                                            Esplora la demo
                                         </a>
                                     )}
                                     {hasRepo && (
@@ -121,7 +121,7 @@ function ProjectDetails() {
                                             rel="noreferrer"
                                             className="inline-flex min-h-9 items-center justify-center border border-[#52627D] bg-[#101A2E] px-3 py-2 text-xs font-medium text-[#E2E8F0] transition-colors hover:border-[#60A5FA] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#60A5FA]"
                                         >
-                                            Ispeziona codice GitHub
+                                            Apri il repository
                                         </a>
                                     )}
                                 </div>

@@ -10,7 +10,7 @@ function CareerTimeline() {
                         Esperienza e formazione
                     </h2>
                     <p className="mt-3 text-sm leading-6 text-[#CBD5E1] sm:text-base">
-                        Dalle competenze nella comunicazione al lavoro quotidiano sul Front-End.
+                        Dall’esperienza nei contenuti allo sviluppo Front-End.
                     </p>
                 </header>
 

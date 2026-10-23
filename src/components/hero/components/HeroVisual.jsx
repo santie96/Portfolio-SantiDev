@@ -2,7 +2,7 @@ import fotoCv from "./../../../assets/img/foto-per-cv.png"
 
 function HeroVisual() {
   return (
-    <div className="relative isolate mx-auto aspect-square w-full max-w-xl overflow-hidden font-text" aria-label="Ritratto di Santi Andrea Emma con elementi grafici ispirati al codice">
+    <div className="relative isolate mx-auto aspect-square w-full max-w-xl overflow-hidden font-text" aria-label="Ritratto di SantiDev con elementi grafici ispirati al codice">
       <div className="absolute left-[7%] top-[6%] h-[19%] w-[19%] bg-[radial-gradient(circle,#64748B_1px,transparent_1.5px)] bg-size-[10px_10px] opacity-50" aria-hidden="true" />
       <div className="absolute bottom-[8%] right-[3%] h-[16%] w-[16%] bg-[radial-gradient(circle,#64748B_1px,transparent_1.5px)] bg-size-[9px_9px] opacity-40" aria-hidden="true" />
 
@@ -24,7 +24,7 @@ function HeroVisual() {
           <span className="pl-2 text-[#7C3AED]">skills:</span>{" [React, "}
           <span className="text-[#3B82F6]">JavaScript</span>{", Tailwind],"}
           <br />
-          <span className="pl-2 text-[#7C3AED]">passion:</span>{" 'Front-end'"}
+          <span className="pl-2 text-[#7C3AED]">passion:</span>{" 'Front-End'"}
           <br />
           {"};"}
         </code>
@@ -33,14 +33,14 @@ function HeroVisual() {
       <img
         className="absolute bottom-4 left-1/2 z-40 w-[80%] max-w-none -translate-x-1/2 object-contain"
         src={fotoCv}
-        alt="Santi Andrea Emma, Junior Front-End Developer"
+        alt="Ritratto di Santi Andrea Emma"
       />
 
       <div className="absolute bottom-[8%] left-2 right-2 z-50 flex justify-center">
         <div className="max-w-[90%] rounded-xl border border-[#06B6D4]/35 bg-[#101A2E]/90 px-3 py-2 shadow-[0_0_25px_rgba(6,182,212,0.14)]">
           <p className="flex items-center justify-center gap-2 text-center text-[0.65rem] text-white">
             <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-green-500" aria-hidden="true" />
-            Available for new opportunities
+            Alla ricerca di un impiego Junior Front-End
           </p>
         </div>
       </div>

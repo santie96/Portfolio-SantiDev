@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import SideBarMenu from "./Navbar/Components/SideBarMenu"
+import SideBarMenu from "./SideBarMenu.jsx";
 
 const navLinkClass = ({ isActive }) =>
     `relative inline-flex min-h-11 items-center transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#60A5FA] ${
@@ -90,7 +90,7 @@ function Navbar() {
                                 <NavLink className={navLinkClass} to="/progetti">Progetti</NavLink>
                             </li>
                             <li>
-                                <NavLink className={navLinkClass} to="/skills">Skills</NavLink>
+                                <NavLink className={navLinkClass} to="/skills">Competenze</NavLink>
                             </li>
                             <li>
                                 <NavLink className={navLinkClass} to="/contatti">Contatti</NavLink>

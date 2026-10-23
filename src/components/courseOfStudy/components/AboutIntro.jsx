@@ -1,4 +1,4 @@
-const values = ["UX-first", "Codice pulito", "Attenzione ai dettagli", "Comunicazione chiara"];
+const values = ["Interfacce intuitive", "Cura del codice", "Attenzione ai dettagli", "Comunicazione chiara"];
 
 function AboutIntro() {
     return (
@@ -8,16 +8,16 @@ function AboutIntro() {
                     <div className="lg:col-span-5">
                         <p className="mb-4 font-mono text-xs text-[#60A5FA] sm:text-sm">Chi sono</p>
                         <h1 id="about-title" className="max-w-[15ch] font-title text-4xl font-semibold leading-[1.05] tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl">
-                            Dal marketing al codice, con la comunicazione al centro.
+                            Dal digital marketing allo sviluppo Front-End.
                         </h1>
                     </div>
 
                     <div className="lg:col-span-7">
                         <p className="max-w-3xl text-base leading-7 text-[#CBD5E1] sm:text-lg sm:leading-8">
-                            Ho iniziato nel digital marketing e nella gestione dei contenuti. Lì ho imparato a capire cosa serve alle persone e a organizzare le informazioni con chiarezza.
+                            Ho iniziato nel digital marketing e nella gestione dei contenuti. Quell’esperienza mi ha insegnato a considerare le esigenze delle persone e a organizzare le informazioni con chiarezza.
                         </p>
                         <p className="mt-4 max-w-3xl text-sm leading-6 text-[#CBD5E1] sm:text-base sm:leading-7">
-                            Dopo 746 ore di formazione Web &amp; Front-End, ho portato quello sguardo nello sviluppo di interfacce e gestionali con React e JavaScript. Nel mio lavoro cerco di unire comunicazione, usabilità e cura tecnica.
+                            Dopo il percorso di formazione Web &amp; Front-End, ho applicato React e JavaScript a interfacce web e gestionali. Nel mio lavoro curo la struttura, l’usabilità e la chiarezza dei contenuti.
                         </p>
 
                         <div className="mt-7 border-t border-white/10 pt-5">

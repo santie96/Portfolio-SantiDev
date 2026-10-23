@@ -21,7 +21,7 @@ function Skills() {
         <TechnologyDirectory
             eyebrow="Competenze"
             title="Le tecnologie del mio stack"
-            description="La base con cui progetto e sviluppo interfacce web."
+            description="Qui trovi lo stack principale, le tecnologie complementari e quelle che sto approfondendo."
             groups={groups}
         />
     );

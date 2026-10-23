@@ -8,7 +8,7 @@ function SkillsPage() {
             <Intestation
                 eyebrow="Competenze Front-End"
                 title="Il mio stack per il web"
-                paragraf="Progetto interfacce con React, JavaScript, HTML, CSS e Tailwind. Questi sono gli strumenti che uso più spesso."
+                paragraf="Sviluppo interfacce responsive con React e JavaScript, usando HTML, CSS e Tailwind CSS per struttura e stile."
             />
 
             <section className="section-surface-alt border-t border-white/10">

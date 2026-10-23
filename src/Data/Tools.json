@@ -10,7 +10,7 @@
       {
         "name": "Git",
         "icon": "git.svg",
-        "detail": "Versionamento"
+        "detail": "Gestione delle versioni del codice"
       },
       {
         "name": "GitHub",
@@ -25,7 +25,7 @@
       {
         "name": "Figma",
         "icon": "figma.svg",
-        "detail": "Prototipi e interfacce"
+        "detail": "Prototipi e progettazione delle interfacce"
       },
       {
         "name": "Miro",

@@ -14,7 +14,7 @@ function home() {
                             - Progetti
                         </p>
                         <h2 className="font-title text-xl font-semibold text-white sm:text-2xl lg:text-[2rem]">
-                            Lavori recenti
+                            Progetti selezionati
                         </h2>
                     </div>
 
@@ -22,7 +22,7 @@ function home() {
                         to="/progetti"
                         className="inline-flex items-center gap-2 self-start rounded-full bg-[#3B82F6]/10 border border-[#3B82F6]/20 px-4 py-2 text-sm font-medium text-[#BFDBFE] duration-300 transition-colors hover:bg-[#24344D]"
                     >
-                        Vedi tutti
+                        Esplora tutti i progetti
                     </Link>
                 </div>
       </Project>

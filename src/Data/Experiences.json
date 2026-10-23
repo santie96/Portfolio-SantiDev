@@ -1,7 +1,7 @@
 [
     {
         "period": "2026",
-        "role": "Developer Frontend",
+        "role": "Developer Front-End",
         "organization": "C.F.A. S.r.l.",
         "description": "Sviluppo di gestionali e dashboard ERP con React, React Router e Tailwind CSS."
     },
@@ -13,9 +13,9 @@
     },
     {
         "period": "2023 – 2024",
-        "role": "Addetto al Marketing",
+        "role": "Marketing digitale",
         "organization": "Emotion S.r.l.",
-        "description": "Marketing digitale, SEO, ADV, email marketing e gestione dei contenuti."
+        "description": "SEO, campagne pubblicitarie online, email marketing e gestione dei contenuti."
     },
     {
         "period": "2022",

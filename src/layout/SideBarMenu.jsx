@@ -73,7 +73,7 @@ export function SidebarMenu({ isOpen, onClose }) {
                                 to="/skills"
                                 onClick={onClose}
                             >
-                                Skills
+                                Competenze
                             </NavLink>
                         </li>
                         <li className="group w-full">

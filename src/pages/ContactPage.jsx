@@ -3,13 +3,13 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 const socialLinks = [
     {
         label: "LinkedIn",
-        detail: "Scrivimi per parlare di una collaborazione",
+        detail: "Percorso professionale e aggiornamenti.",
         href: "https://www.linkedin.com/in/santi-andrea-emma/",
         icon: IoLogoLinkedin,
     },
     {
         label: "GitHub",
-        detail: "Dai un’occhiata ai miei progetti",
+        detail: "Codice e repository dei progetti.",
         href: "https://github.com/santie96",
         icon: IoLogoGithub,
     },
@@ -20,22 +20,22 @@ function ContactPage() {
         <section className="section-surface-alt w-full text-white" aria-labelledby="contact-title">
             <div className="mx-auto grid min-h-[65vh] w-full max-w-7xl items-center gap-12 px-6 py-16 sm:px-10 sm:py-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(19rem,0.85fr)] lg:gap-20 lg:px-20 lg:py-24">
                 <div className="max-w-2xl">
-                    <p className="mb-6 font-mono text-sm text-[#06B6D4]">// ogni buon progetto inizia da una conversazione</p>
+                    <p className="mb-6 font-mono text-sm text-[#06B6D4]">// candidature e colloqui Front-End</p>
                     <h1
                         id="contact-title"
                         className="font-title text-5xl font-semibold leading-[1.02] tracking-[-0.045em] sm:text-6xl lg:text-7xl"
                     >
-                        Hai un’idea <span className="text-[#93C5FD]">in mente?</span>
+                        Cerco un’opportunità <span className="text-[#93C5FD]">Front-End.</span>
                     </h1>
                     <p className="mt-7 max-w-xl font-text text-base leading-7 text-[#CBD5E1] sm:text-lg sm:leading-8">
-                        Sono Santi, junior front-end developer. Se stai costruendo qualcosa per il web o vuoi confrontarti su un progetto, mi fa piacere conoscerti.
+                        Sono SantiDev, Junior Front-End Developer. Cerco un impiego in cui sviluppare interfacce con React e JavaScript e crescere all’interno di un team.
                     </p>
                     <p className="mt-8 inline-flex items-center gap-3 text-sm text-[#CBD5E1]">
                         <span className="relative flex h-2.5 w-2.5" aria-hidden="true">
                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#06B6D4] opacity-40 motion-reduce:animate-none" />
                             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#06B6D4]" />
                         </span>
-                        Disponibile per nuove collaborazioni
+                        Disponibile per colloqui
                     </p>
                 </div>
 
@@ -64,7 +64,7 @@ function ContactPage() {
                                         >
                                             <span>
                                                 <span className="block font-mono text-sm text-[#93C5FD]">
-                                                    {label.toLowerCase()}: <span className="text-white underline decoration-[#3B82F6]/70 underline-offset-4 group-hover:decoration-[#06B6D4]">apri profilo</span>,
+                                                    {label.toLowerCase()}: <span className="text-white underline decoration-[#3B82F6]/70 underline-offset-4 group-hover:decoration-[#06B6D4]">apri il profilo</span>,
                                                 </span>
                                                 <span className="mt-1 block text-sm leading-6 text-slate-400">{detail}</span>
                                             </span>
@@ -77,7 +77,7 @@ function ContactPage() {
                         </div>
 
                         <div className="border-t border-white/10 px-5 py-3 sm:px-8">
-                            <p className="font-mono text-xs text-slate-500">// ti risponderò appena possibile</p>
+                            <p className="font-mono text-xs text-slate-500">// profili professionali</p>
                         </div>
                     </div>
                 </div>

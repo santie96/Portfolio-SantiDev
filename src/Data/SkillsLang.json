@@ -10,7 +10,7 @@
       {
         "name": "JavaScript",
         "icon": "javascript.svg",
-        "detail": "Logica, eventi e interazioni"
+        "detail": "Gestione della logica e delle interazioni"
       },
       {
         "name": "HTML / CSS",
@@ -23,7 +23,7 @@
       {
         "name": "Tailwind CSS",
         "icon": "tailwindcss.svg",
-        "detail": "Stili coerenti e varianti responsive"
+        "detail": "Layout e stili responsive con utility CSS"
       }
     ]
   },
@@ -48,12 +48,12 @@
       {
         "name": "TypeScript",
         "icon": "typescript.svg",
-        "detail": "Tipi più solidi per il codice"
+        "detail": "Sto imparando a tipizzare dati e funzioni"
       },
       {
         "name": "Next.js",
         "icon": "nextjs.svg",
-        "detail": "Nuove soluzioni per app React"
+        "detail": "Sto approfondendo la struttura delle app React"
       }
     ]
   }
