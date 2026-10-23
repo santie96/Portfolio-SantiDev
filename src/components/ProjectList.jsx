@@ -1,5 +1,5 @@
 import ProjectCard from "../layout/ProjectCard";
-import projects from "../data/Project.json";
+import projects from "../data/Projects.json";
 
 function ProjectList({ children, limit, headingLevel = 3 }) {
     const visibleProjects = limit ? projects.slice(0, limit) : projects;

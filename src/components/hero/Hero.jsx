@@ -4,7 +4,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
 import { IoCodeSlash } from "react-icons/io5";
 import { FaUsers } from "react-icons/fa";
-import CardHeroLayout from "./components/StatCard";
+import StatCard from "./components/StatCard";
 import HeroVisual from "./components/HeroVisual";
 
 
@@ -47,9 +47,9 @@ function hero() {
                         </div>
 
                         <div className="grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-3">
-                            <CardHeroLayout icon={<LuClock3 aria-hidden="true" />} title="700+" text="Ore di formazione" />
-                            <CardHeroLayout icon={<IoCodeSlash aria-hidden="true" />} title="5" text="Progetti completi" />
-                            <CardHeroLayout icon={<FaUsers aria-hidden="true" />} title="3" text="Progetti in team" />
+                            <StatCard icon={<LuClock3 aria-hidden="true" />} title="700+" text="Ore di formazione" />
+                            <StatCard icon={<IoCodeSlash aria-hidden="true" />} title="5" text="Progetti completi" />
+                            <StatCard icon={<FaUsers aria-hidden="true" />} title="3" text="Progetti in team" />
                         </div>
                     </div>
 

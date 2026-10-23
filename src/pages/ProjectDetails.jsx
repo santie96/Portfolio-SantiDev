@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import projects from "../data/Project.json";
+import projects from "../data/Projects.json";
 
 const panelClasses = "border border-[#40516F] bg-[#17233A]";
 const tagClasses = "border border-[#40516F] bg-[#101A2E] px-2 py-1 font-mono text-[10px] leading-4 text-[#BFDBFE]";

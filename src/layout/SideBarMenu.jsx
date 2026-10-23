@@ -76,14 +76,6 @@ export function SidebarMenu({ isOpen, onClose }) {
                                 Skills
                             </NavLink>
                         </li>
-                        {/* <li className="group w-full">
-                            <NavLink className={mobileNavLinkClass}
-                                to="/esperienze"
-                                onClick={onClose}
-                            >
-                                Esperienze
-                            </NavLink>
-                        </li> */}
                         <li className="group w-full">
                             <NavLink className={mobileNavLinkClass}
                                 to="/contatti"

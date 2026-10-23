@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import SideBarMenu from "./Components/SideBarMenu"
+import SideBarMenu from "./Navbar/Components/SideBarMenu"
 
 const navLinkClass = ({ isActive }) =>
     `relative inline-flex min-h-11 items-center transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#60A5FA] ${
@@ -74,11 +74,10 @@ function Navbar() {
                             <FaBars className="text-xl sm:text-2xl" aria-hidden="true" />
                         </button>
 
-                        <SideBarMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
                     </section>
 
 
-                    {/* Navigation Menu - view Desktop  {#d24,23} */}
+                    {/* Navigation Menu - view Desktop  {#d24,20} */}
                     <section className="hidden lg:block">
                         <ul className="flex items-center gap-5 text-white font-title xl:gap-7">
                             <li>
@@ -93,9 +92,6 @@ function Navbar() {
                             <li>
                                 <NavLink className={navLinkClass} to="/skills">Skills</NavLink>
                             </li>
-                            {/* <li>
-                                <NavLink className={navLinkClass} to="/esperienze">Esperienze</NavLink>
-                            </li> */}
                             <li>
                                 <NavLink className={navLinkClass} to="/contatti">Contatti</NavLink>
                             </li>
@@ -116,6 +112,7 @@ function Navbar() {
 
             </header>
 
+            <SideBarMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
         </>
 
     )
